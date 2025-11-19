@@ -17,10 +17,13 @@ window#waybar {
     border: 1px solid rgba(180, 190, 254, 0.5);
     box-shadow: 0 0 8px rgba(180, 190, 254, 0.3);
 }
-
-#custom-trayicon,
-#custom-music,
+#custom-trayicon {padding-left: 12px; padding-right: 2px; font-size: 12pt;}
 #tray,
+#battery,
+#temperature,
+
+#custom-music,
+#custom-zapret,
 #workspaces,
 #pulseaudio,
 #network,
@@ -29,13 +32,17 @@ window#waybar {
     padding: 4px 8px;
     background: transparent;
 }
-
-#pulseaudio { color: #cba6f7; }
+#tray {color: #bac0db;}
+#temperature { color: #cba6f7; }
+#battery { color: #cba6f7; }
+#pulseaudio { color: #f5c2e7; }
 #network { color: #f5c2e7; }
 #language { color: #89b4fa; }
 #clock { color: #bac0db; }
-#custom-music { 
+#custom-music,
+#custom-zapret { 
     color: #cba6f7;
+    font-size: 8pt;
 }
 #custom-trayicon { color: #89b4fa; }
 
